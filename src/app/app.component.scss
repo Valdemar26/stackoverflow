@@ -4,9 +4,10 @@
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: 100px 1fr 200px;
   height: 100%;
+  color: #000;
 
   .header {
-    background-color: #8383e4;
+    background-color: #fdf9eb;
     grid-column-start: 1;
     grid-column-end: 4;
 
@@ -24,14 +25,13 @@
         &:hover {
           opacity: 0.8;
           cursor: pointer;
-          border: 1px dashed #fff;
         }
       }
     }
   }
 
   .left-sidebar {
-    background-color: red;
+    background-color: #ffcdcd;
     grid-row-start: 2;
     grid-row-end: 4;
 
@@ -49,14 +49,13 @@
         &:hover {
           opacity: 0.8;
           cursor: pointer;
-          border: 1px dashed #fff;
         }
       }
     }
   }
 
   .main {
-    background-color: lightgreen;
+    background-color: #e6ffe6;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -76,14 +75,13 @@
         &:hover {
           opacity: 0.8;
           cursor: pointer;
-          border: 1px dashed #fff;
         }
       }
     }
   }
 
   .right-sidebar {
-    background-color: lightblue;
+    background-color: #c3eeff;
     grid-column-start: 3;
     grid-row-start: 2;
     grid-row-end: 4;
@@ -102,14 +100,13 @@
         &:hover {
           opacity: 0.8;
           cursor: pointer;
-          border: 1px dashed #fff;
         }
       }
     }
   }
 
   .footer {
-    background-color: pink;
+    background-color: #ffebef;
     grid-column-start: 1;
     grid-column-end: 4;
   }
