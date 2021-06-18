@@ -4,48 +4,94 @@
 
   <div class="header">
     <div class="container">
-      <div class="logo">LOGO</div>
-      <div class="search">SEARCH</div>
-      <div class="user">USER</div>
+
+      <div class="logo">
+        <app-logo></app-logo>
+      </div>
+
+      <div class="search">
+        <app-search></app-search>
+      </div>
+
+      <div class="user">
+        <app-user-info></app-user-info>
+      </div>
+
     </div>
   </div>
 
   <div class="left-sidebar">
+
     <div class="container">
-      <div class="home">Home</div>
-      <div class="public">Public</div>
-      <div class="teams">Teams</div>
+
+      <div class="home">
+        <app-home></app-home>
+      </div>
+
+      <div class="public">
+        <app-public></app-public>
+      </div>
+
+      <div class="teams">
+        <app-teams></app-teams>
+      </div>
+
     </div>
+
   </div>
 
   <div class="main">
     <div class="container">
 
-      <div class="question">Question Text</div>
+      <div class="question">
+
+        <app-asked-question></app-asked-question>
+
+      </div>
 
       <div class="answers">
-        Answers
+
+        <app-answers-list></app-answers-list>
+
       </div>
 
       <div class="your-answer">
-        Your Answer
+
+        <app-your-answer></app-your-answer>
+
       </div>
 
     </div>
   </div>
 
   <div class="right-sidebar">
+
     <div class="container">
-      <div class="logo">Blog</div>
-      <div class="logo">Related</div>
-      <div class="logo">Hot</div>
+
+      <div class="logo">
+        <app-blog></app-blog>
+      </div>
+
+      <div class="logo">
+        <app-related-questions></app-related-questions>
+      </div>
+
+      <div class="logo">
+        <app-hot-questions></app-hot-questions>
+      </div>
+
     </div>
+
   </div>
 
   <div class="footer">
+
     <div class="container">
-      Footer
+
+      <app-footer></app-footer>
+
     </div>
+
   </div>
 
 </div>
